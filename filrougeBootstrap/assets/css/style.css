@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+
+.redressed{
+	font-family:'Redressed', cursive;
+}
+
+.montserrat{
+	font-family: 'Montserrat', serif;
+}
+
+.cc-navbar{
+	background-color: #fff;
+	font-family: 'Montserrat';
+	z-index: 99;
+	
+}
+
+#navbarDropdown {
+	color: #ffc700;
+}
+.dropdown-item {
+	color: #228d70;
+}
+.dropdown-item:hover{
+	background-color: #228d70;
+	color: #fff;
+}
+
+.dropdown-item:active{
+	color: #ffc700;
+	background-color: #228d70; ;
+}
+
+.banner,.login-form{
+	background: url(../img/andrea-davis-IWfe63thJxk-unsplash.jpg) center center fixed no-repeat;
+	height: 800px;
+	background-size: cover;
+}
+.login-form{
+	height: 800px;
+}
+.btn-primary{
+	background-color: #c4c4c4;
+	color: black;
+	border-color: #c4c4c4;
+}
+.btn-primary:hover,
+.btn-primary:active{
+	background-color: #228d70;
+	color: #fff;
+	border-color: #228d70;
+}
+.btn-order{
+	background-color: #228d70;
+	color: black;
+	border: #228d70;
+}
+.btn-outline-info{
+	background-color: #ffc700;
+	color: black;
+	border-color: #ffc700;
+}
+.btn-outline-info:hover{
+	background-color: #fff;
+	color: #ffc700;
+}
+footer{
+	background-color: #c4c4c4;
+	font-family: 'montserrat';
+	color: #228d70;
+}
